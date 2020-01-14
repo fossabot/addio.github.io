@@ -23,7 +23,7 @@ cd my-app
 npm start
 ```
 
-
+![React.png](https://raw.githubusercontent.com/addio/addio.github.io/develop/resources/_gen/images/React.png)
 
 ## 项目初始化目录介绍
 
