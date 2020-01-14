@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://addio.github.io/</id>
     <title>addio 的编程学习博客</title>
-    <updated>2020-01-14T08:26:54.623Z</updated>
+    <updated>2020-01-14T08:28:12.175Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://addio.github.io/"/>
     <link rel="self" href="https://addio.github.io/atom.xml"/>
@@ -16,9 +16,9 @@
         <link href="https://addio.github.io/post/react-xue-xi">
         </link>
         <updated>2020-01-14T06:15:56.000Z</updated>
-        <summary type="html"><![CDATA[<p>一个学习React的笔记</p>
+        <summary type="html"><![CDATA[<p>React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>一个学习React的笔记</p>
+        <content type="html"><![CDATA[<p>React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记</p>
 <!-- more -->
 <h1 id="环境nodejs">环境：Node.js</h1>
 <pre><code>node -v
