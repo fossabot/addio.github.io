@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://addio.github.io/</id>
-    <title>addio 的编程学习博客</title>
-    <updated>2020-01-14T08:30:24.548Z</updated>
+    <title>我的编程学习博客</title>
+    <updated>2020-01-14T08:32:04.686Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://addio.github.io/"/>
     <link rel="self" href="https://addio.github.io/atom.xml"/>
     <subtitle>编程学习过程中的一些笔记</subtitle>
     <logo>https://addio.github.io/images/avatar.png</logo>
     <icon>https://addio.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, addio 的编程学习博客</rights>
+    <rights>All rights reserved 2020, 我的编程学习博客</rights>
     <entry>
         <title type="html"><![CDATA[React 学习]]></title>
         <id>https://addio.github.io/post/react-xue-xi</id>
