@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://addio.github.io/</id>
+    <title>addio 的编程学习博客</title>
+    <updated>2020-01-14T06:37:53.220Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://addio.github.io/"/>
+    <link rel="self" href="https://addio.github.io/atom.xml"/>
+    <subtitle>编程学习过程中的一些笔记</subtitle>
+    <logo>https://addio.github.io/images/avatar.png</logo>
+    <icon>https://addio.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, addio 的编程学习博客</rights>
+    <entry>
+        <title type="html"><![CDATA[React 学习]]></title>
+        <id>https://addio.github.io/post/react-xue-xi</id>
+        <link href="https://addio.github.io/post/react-xue-xi">
+        </link>
+        <updated>2020-01-14T06:15:56.000Z</updated>
+        <summary type="html"><![CDATA[<p>一个学习React的笔记</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>一个学习React的笔记</p>
+<!-- more -->
+<h1 id="create-react-app">Create React App</h1>
+<pre><code>npx create-react-app my-app
+cd my-app
+npm start
+</code></pre>
+]]></content>
+    </entry>
+</feed>
