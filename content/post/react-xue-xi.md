@@ -22,7 +22,8 @@ npx create-react-app my-app
 cd my-app
 npm start
 ```
-![屏幕截图(2).png](https://raw.githubusercontent.com/addio/addio.github.io/master/resources/_gen/assets/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(2).png)
+
+![屏幕截图(2).png](https://raw.githubusercontent.com/addio/addio.github.io/master/resources/_gen/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(2).png)
 
 ## 项目初始化目录介绍
 
