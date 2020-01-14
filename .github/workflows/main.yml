@@ -20,8 +20,8 @@ jobs:
         run: |
           hugo
 
-      - name: Deploy Hugo to gh-pages
-        uses: peaceiris/actions-gh-pages@v2
+      - name: Deploy Hugo to master
+        uses: peaceiris/actions-master@v2
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: master
