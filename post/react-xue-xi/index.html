@@ -1,119 +1,115 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>React 学习 | addio 的编程学习博客</title>
-<meta name="description" content="编程学习过程中的一些笔记">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://addio.github.io//favicon.ico?v=1578990508411">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://addio.github.io//favicon.ico?v=1578990610306">
+<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://addio.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="React 学习 | addio 的编程学习博客 - Atom Feed" href="https://addio.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+    <meta name="description" content="React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记
 
+环境：Node.js
+node -v
+npm -v
 
-
+创建项目：Create React App
+npx create-react-app my..." />
+    <meta name="keywords" content="前端,react,学习" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://addio.github.io/">
-        <img class="avatar" src="https://addio.github.io//images/avatar.png?v=1578990508411" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://addio.github.io/">
-        <h1 class="site-title">addio 的编程学习博客</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://addio.github.io/">
+  <img class="avatar" src="https://addio.github.io//images/avatar.png?v=1578990610306" alt="">
+  </a>
+  <h1 class="site-title">
+    addio 的编程学习博客
+  </h1>
+  <p class="site-description">
+    编程学习过程中的一些笔记
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
         <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://addio.github.io//post-images/react-xue-xi.png')">
-            </div>
-          
-          <h2 class="post-title">React 学习</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-01-14</span>
-            
+          <article class="post">
+            <h2 class="post-title">
+              React 学习
+            </h2>
+            <div class="post-info">
               <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://addio.github.io/tag/TMkxmed5f">
-                    前端
-                    
-                      ，
-                    
-                  </a>
-                
-                  <a href="https://addio.github.io/tag/bzdtkWMKts">
-                    react
-                    
-                      ，
-                    
-                  </a>
-                
-                  <a href="https://addio.github.io/tag/KoVLbuDmva">
-                    学习
-                    
-                  </a>
-                
+                2020-01-14
               </span>
+              <span>
+                1 min read
+              </span>
+              
+                <a href="https://addio.github.io/tag/TMkxmed5f" class="post-tag">
+                  # 前端
+                </a>
+              
+                <a href="https://addio.github.io/tag/bzdtkWMKts" class="post-tag">
+                  # react
+                </a>
+              
+                <a href="https://addio.github.io/tag/KoVLbuDmva" class="post-tag">
+                  # 学习
+                </a>
+              
+            </div>
             
-          </div>
-          <div class="post-content">
-            <p>React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记</p>
+              <img class="post-feature-image" src="https://addio.github.io//post-images/react-xue-xi.png" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记</p>
 <!-- more -->
 <h1 id="环境nodejs">环境：Node.js</h1>
 <pre><code>node -v
@@ -142,53 +138,79 @@ ReactDOM.render(&lt;App /&gt;, document.getElementById('root'));
 serviceWorker.unregister();
 </code></pre>
 
-          </div>
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E7%8E%AF%E5%A2%83nodejs">环境：Node.js</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AEcreate-react-app">创建项目：[Create React App][1]</a>
+<ul>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9B%AE%E5%BD%95%E4%BB%8B%E7%BB%8D">项目初始化目录介绍</a>
+<ul>
+<li><a href="#%E5%85%A5%E5%8F%A3%E6%96%87%E4%BB%B6-my-appsrcindexjs">入口文件  my-app/src/index.js</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
         </div>
 
         
-      </div>
 
-      
+        
 
-      <div class="site-footer">
-  <div class="slogan">编程学习过程中的一些笔记</div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/addio" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://addio.github.io//atom.xml" target="_blank">RSS</a>
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://addio.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
 </div>
 
-
+      </div>
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script>
+      hljs.initHighlightingOnLoad()
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-</script>
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
 
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
 
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
 
-
+    </script>
   </body>
 </html>
