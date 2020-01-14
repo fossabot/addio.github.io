@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://addio.github.io/</id>
     <title>addio 的编程学习博客</title>
-    <updated>2020-01-14T08:06:26.465Z</updated>
+    <updated>2020-01-14T08:16:50.842Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://addio.github.io/"/>
     <link rel="self" href="https://addio.github.io/atom.xml"/>
@@ -20,7 +20,7 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>一个学习React的笔记</p>
 <!-- more -->
-<p>Node.js</p>
+<h1 id="nodejs">Node.js</h1>
 <pre><code>node -v
 npm -v
 </code></pre>
@@ -29,7 +29,8 @@ npm -v
 cd my-app
 npm start
 </code></pre>
-<figure data-type="image" tabindex="1"><img src="https://addio.github.io//post-images/1578989015800.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://addio.github.io//post-images/1578989015800.png" alt="项目创建完成" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://addio.github.io//post-images/1578989773265.png" alt="项目目录" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
