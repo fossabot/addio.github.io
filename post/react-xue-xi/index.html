@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://addio.github.io//favicon.ico?v=1578989799864">
+<link rel="shortcut icon" href="https://addio.github.io//favicon.ico?v=1578990222812">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://addio.github.io//styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="site-header">
     <div class="left">
       <a href="https://addio.github.io/">
-        <img class="avatar" src="https://addio.github.io//images/avatar.png?v=1578989799864" alt="" width="32px" height="32px">
+        <img class="avatar" src="https://addio.github.io//images/avatar.png?v=1578990222812" alt="" width="32px" height="32px">
       </a>
       <a href="https://addio.github.io/">
         <h1 class="site-title">addio 的编程学习博客</h1>
@@ -126,6 +126,21 @@ npm start
 </code></pre>
 <figure data-type="image" tabindex="1"><img src="https://addio.github.io//post-images/1578989015800.png" alt="项目创建完成" loading="lazy"></figure>
 <figure data-type="image" tabindex="2"><img src="https://addio.github.io//post-images/1578989773265.png" alt="项目目录" loading="lazy"></figure>
+<h2 id="项目初始化目录介绍">项目初始化目录介绍</h2>
+<h3 id="入口文件-my-appsrcindexjs">入口文件  my-app/src/index.js</h3>
+<pre><code>import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
+
+ReactDOM.render(&lt;App /&gt;, document.getElementById('root'));
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
+</code></pre>
 
           </div>
         </div>
