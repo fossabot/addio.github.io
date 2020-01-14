@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://addio.github.io/</id>
     <title>addio 的编程学习博客</title>
-    <updated>2020-01-14T06:14:26.549Z</updated>
+    <updated>2020-01-14T06:18:33.728Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://addio.github.io/"/>
     <link rel="self" href="https://addio.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://addio.github.io/images/avatar.png</logo>
     <icon>https://addio.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, addio 的编程学习博客</rights>
+    <entry>
+        <title type="html"><![CDATA[React 学习]]></title>
+        <id>https://addio.github.io/post/react-xue-xi</id>
+        <link href="https://addio.github.io/post/react-xue-xi">
+        </link>
+        <updated>2020-01-14T06:15:56.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://addio.github.io/post/hello-gridea</id>
