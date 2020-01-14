@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "http://addio.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "Even - A super concise theme for Hugo"
@@ -155,7 +155,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     appKey = '你的appKey'
     notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
     verify = false # Verification code
-    avatar = 'mm' 
+    avatar = 'mm'
     placeholder = '说点什么吧...'
     visitor = false
 
