@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>React 学习 | 和平街21号</title>
-<link rel="shortcut icon" href="https://addio.github.io//favicon.ico?v=1578991297811">
+<link rel="shortcut icon" href="https://addio.github.io//favicon.ico?v=1578991547591">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://addio.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="React 学习 | 和平街21号 - Atom Feed" href="https://addio.github.io//atom.xml">
@@ -28,7 +28,7 @@ npx create-react-app my..." />
       <div class="main-content">
         <div class="site-header">
   <a href="https://addio.github.io/">
-  <img class="avatar" src="https://addio.github.io//images/avatar.png?v=1578991297811" alt="">
+  <img class="avatar" src="https://addio.github.io//images/avatar.png?v=1578991547591" alt="">
   </a>
   <h1 class="site-title">
     和平街21号
@@ -88,7 +88,7 @@ npx create-react-app my..." />
                 2020-01-14
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
                 <a href="https://addio.github.io/tag/TMkxmed5f" class="post-tag">
@@ -139,13 +139,24 @@ serviceWorker.unregister();
 </code></pre>
 <h2 id="清空src内文件">清空src内文件</h2>
 <ol>
-<li>创建index.js</li>
+<li>创建src/index.js</li>
 </ol>
 <pre><code>import React from &quot;react&quot;;
 import ReactDOM from &quot;react-dom&quot;;
 import App from './App';
 
 ReactDOM.render(&lt;App /&gt;, document.getElementById(&quot;root&quot;));
+</code></pre>
+<ol>
+<li>创建src/App.js</li>
+</ol>
+<pre><code>import React, { Component } from &quot;react&quot;;
+
+class App extends Component {
+  render() {
+    return &lt;div&gt;Hello World!&lt;/div&gt;;
+  }
+}
 </code></pre>
 
               </div>
