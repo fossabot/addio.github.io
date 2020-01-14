@@ -23,9 +23,7 @@ cd my-app
 npm start
 ```
 
-<!-- ![项目创建完成](https://addio.github.io//post-images/1578989015800.png)
-
-![项目目录](https://addio.github.io//post-images/1578989773265.png) -->
+![](C:\Users\g\Pictures\Screenshots\屏幕截图(2).png)
 
 ## 项目初始化目录介绍
 
