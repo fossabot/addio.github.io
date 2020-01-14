@@ -16,6 +16,55 @@
   </url>
   
   <url>
+    <loc>http://addio.github.io/</loc>
+    <lastmod>2020-01-14T14:15:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://addio.github.io/post/</loc>
+    <lastmod>2020-01-14T14:15:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://addio.github.io/tags/react/</loc>
+    <lastmod>2020-01-14T14:15:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://addio.github.io/post/react-xue-xi/</loc>
+    <lastmod>2020-01-14T14:15:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://addio.github.io/tags/</loc>
+    <lastmod>2020-01-14T14:15:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://addio.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2020-01-14T14:15:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://addio.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2020-01-14T14:15:56+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://addio.github.io/categories/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -37,20 +86,6 @@
   </url>
   
   <url>
-    <loc>http://addio.github.io/</loc>
-    <lastmod>2018-11-05T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://addio.github.io/post/</loc>
-    <lastmod>2018-11-05T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://addio.github.io/tags/preview/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -60,13 +95,6 @@
   <url>
     <loc>http://addio.github.io/tags/tag-3/</loc>
     <lastmod>2018-07-10T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://addio.github.io/tags/</loc>
-    <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -100,14 +128,14 @@
   </url>
   
   <url>
-    <loc>http://addio.github.io/tags/english/</loc>
+    <loc>http://addio.github.io/categories/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://addio.github.io/categories/english/</loc>
+    <loc>http://addio.github.io/tags/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -184,14 +212,14 @@
   </url>
   
   <url>
-    <loc>http://addio.github.io/categories/shortcodes/</loc>
+    <loc>http://addio.github.io/tags/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://addio.github.io/tags/shortcodes/</loc>
+    <loc>http://addio.github.io/categories/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -212,14 +240,14 @@
   </url>
   
   <url>
-    <loc>http://addio.github.io/tags/syntax-highlighting/</loc>
+    <loc>http://addio.github.io/categories/syntax-highlighting/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://addio.github.io/categories/syntax-highlighting/</loc>
+    <loc>http://addio.github.io/tags/syntax-highlighting/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

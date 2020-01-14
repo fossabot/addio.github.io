@@ -6,7 +6,7 @@
     <description>Recent content on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jan 2020 14:15:56 +0000</lastBuildDate>
     
 	<atom:link href="http://addio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -29,6 +29,15 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>React 学习</title>
+      <link>http://addio.github.io/post/react-xue-xi/</link>
+      <pubDate>Tue, 14 Jan 2020 14:15:56 +0000</pubDate>
+      
+      <guid>http://addio.github.io/post/react-xue-xi/</guid>
+      <description>React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记 环境：Node.js 1 2 node -v npm -v 创建项目：Create React App 1 2 3 npx create-react-app my-app cd my-app npm start 项</description>
     </item>
     
     <item>
