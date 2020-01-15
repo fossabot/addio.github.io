@@ -26,7 +26,7 @@ cd my-app
 npm start
 ```
 
-![屏幕截图(2).png](https://raw.githubusercontent.com/addio/addio.github.io/assets/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(2).png)
+![屏幕截图(2).png](q459qoqlt.bkt.clouddn.com/屏幕截图(2).png)
 
 ## 项目初始化目录介绍
 
