@@ -1,7 +1,7 @@
 baseURL = "http://addio.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "Addio - A super concise theme for Hugo"
+title = "编程开发的学习笔记"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -59,7 +59,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   gitRepo = ""
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Addio"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "和平街21号"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","even"]
   description = "Hugo theme even example site."
 
