@@ -31,14 +31,5 @@ It makes use of a variety of open source projects including:
       <description>React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记 环境：Node.js 1 2 node -v npm -v 创建项目：Create React App 1 2 3 npx create-react-app my-app cd my-app npm start 项</description>
     </item>
     
-    <item>
-      <title>备忘录</title>
-      <link>http://addio.github.io/post/momo/</link>
-      <pubDate>Tue, 14 Jan 2020 14:15:56 +0000</pubDate>
-      
-      <guid>http://addio.github.io/post/momo/</guid>
-      <description>待办事项： 证件管理 资料变更 联系电话变更 13774554612=&amp;gt;350182107660 福州市长乐区潭头哲瑜电子店 2020年1月13日 地址相同： 福建省福州市长乐区漳港街道新厝村工地 3501</description>
-    </item>
-    
   </channel>
 </rss>
