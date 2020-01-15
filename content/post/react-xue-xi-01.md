@@ -1,5 +1,5 @@
 ---
-title: 'React 学习'
+title: 'React 学习 day 1'
 date: 2020-01-14 14:15:56
 tags: [前端,react,学习]
 published: true
