@@ -26,7 +26,7 @@ cd my-app
 npm start
 ```
 
-![屏幕截图(2).png](q459qoqlt.bkt.clouddn.com/屏幕截图(2).png)
+![屏幕截图(2).png](http://q459qoqlt.bkt.clouddn.com/屏幕截图(2).png)
 
 ## 项目初始化目录介绍
 
