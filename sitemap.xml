@@ -58,6 +58,11 @@
   </url>
   
   <url>
+    <loc>http://addio.github.io/post/momo/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://addio.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
