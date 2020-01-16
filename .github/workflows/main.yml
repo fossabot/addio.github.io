@@ -13,11 +13,13 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.61.0'
+          hugo-version: "0.61.0"
           # extended: true
 
       - name: Build Hugo
         run: |
+          git config --global user.email "gandli@qq.com"
+          git config --global user.name "gandli"
           hugo
 
       - name: Deploy Hugo to gh-pages
