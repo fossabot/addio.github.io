@@ -1,4 +1,4 @@
-name: GitHub Page Deploy
+name: Hugo持续构建
 
 on:
   push:
