@@ -35,7 +35,7 @@ npm start
 
 ## 项目初始化目录介绍
 
-### 入口文件  my-app/src/index.js
+## 入口文件  my-app/src/index.js
 
 ```
 import React from 'react';
@@ -52,7 +52,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();
 ```
 
-# 写个Hello World!
+## 写个Hello World!
 
 1. 清空src内文件
 
