@@ -3,8 +3,8 @@ title: "Raect 学习 day 01"
 date: 2020-01-14T00:00:00+08:00
 lastmod: 2020-01-14T00:00:00+08:00
 draft: false
-tags: ["Raect", "编程", "学习","框架"]
-categories: ["编程", "学习", "前端"]
+tags: ["Raect", "编程", "学习","框架", "前端"]
+categories: ["Raect", "编程", "学习","框架", "前端"]
 
 weight: 10
 contentCopyright: MIT
