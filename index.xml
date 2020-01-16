@@ -6,10 +6,28 @@
     <description>Recent content on 编程开发的学习笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jan 2020 14:15:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://addio.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Taro 学习 day 01</title>
+      <link>http://addio.github.io/post/taro-xue-xi-01/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>http://addio.github.io/post/taro-xue-xi-01/</guid>
+      <description>Taro 简介 Taro 是一套遵循 React 语法规范的 多端开发 解决方案。 现如今市面上端的形态多种多样，Web、React-Native、微信小程序等各种端大行其道，</description>
+    </item>
+    
+    <item>
+      <title>Raect 学习 day 01</title>
+      <link>http://addio.github.io/post/react-xue-xi-01/</link>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>http://addio.github.io/post/react-xue-xi-01/</guid>
+      <description>React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记 环境：Node.js 1 2 node -v npm -v 创建项目：Create React App 1 2 3 npx create-react-app my-app cd my-app npm start 项</description>
+    </item>
     
     <item>
       <title>Theme preview</title>
@@ -29,15 +47,6 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
-    </item>
-    
-    <item>
-      <title>React 学习 day 1</title>
-      <link>http://addio.github.io/post/react-xue-xi-01/</link>
-      <pubDate>Tue, 14 Jan 2020 14:15:56 +0000</pubDate>
-      
-      <guid>http://addio.github.io/post/react-xue-xi-01/</guid>
-      <description>React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记 环境：Node.js 1 2 node -v npm -v 创建项目：Create React App 1 2 3 npx create-react-app my-app cd my-app npm start 项</description>
     </item>
     
   </channel>

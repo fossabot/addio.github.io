@@ -6,26 +6,35 @@
     <description>Recent content in Categories on 编程开发的学习笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://addio.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>category-2</title>
-      <link>http://addio.github.io/categories/category-2/</link>
-      <pubDate>Tue, 10 Jul 2018 00:00:00 +0800</pubDate>
+      <title>前端</title>
+      <link>http://addio.github.io/categories/%E5%89%8D%E7%AB%AF/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0800</pubDate>
       
-      <guid>http://addio.github.io/categories/category-2/</guid>
+      <guid>http://addio.github.io/categories/%E5%89%8D%E7%AB%AF/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>category-3</title>
-      <link>http://addio.github.io/categories/category-3/</link>
-      <pubDate>Tue, 10 Jul 2018 00:00:00 +0800</pubDate>
+      <title>学习</title>
+      <link>http://addio.github.io/categories/%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0800</pubDate>
       
-      <guid>http://addio.github.io/categories/category-3/</guid>
+      <guid>http://addio.github.io/categories/%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>编程</title>
+      <link>http://addio.github.io/categories/%E7%BC%96%E7%A8%8B/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>http://addio.github.io/categories/%E7%BC%96%E7%A8%8B/</guid>
       <description></description>
     </item>
     

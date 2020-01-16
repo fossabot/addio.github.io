@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>框架 on 编程开发的学习笔记</title>
+    <link>http://addio.github.io/tags/%E6%A1%86%E6%9E%B6/</link>
+    <description>Recent content in 框架 on 编程开发的学习笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://addio.github.io/tags/%E6%A1%86%E6%9E%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raect 学习 day 01</title>
+      <link>http://addio.github.io/post/react-xue-xi-01/</link>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>http://addio.github.io/post/react-xue-xi-01/</guid>
+      <description>React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记 环境：Node.js 1 2 node -v npm -v 创建项目：Create React App 1 2 3 npx create-react-app my-app cd my-app npm start 项</description>
+    </item>
+    
+  </channel>
+</rss>
