@@ -18,8 +18,6 @@ jobs:
 
       - name: Build Hugo
         run: |
-          git config --global user.email "gandli@qq.com"
-          git config --global user.name "gandli"
           hugo
 
       - name: Deploy Hugo to gh-pages

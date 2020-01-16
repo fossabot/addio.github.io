@@ -1,11 +1,15 @@
 ---
-title: 'React 学习 day 01'
-date: 2020-01-14 14:15:56
-tags: [前端,react,学习]
-published: true
-hideInList: false
-feature: /post-images/react-xue-xi.png
-isTop: false
+title: "Raect 学习 day 01"
+date: 2020-01-10T00:00:00+08:00
+lastmod: 2020-01-10T00:00:00+08:00
+draft: false
+tags: ["Raect", "编程", "学习","框架"]
+categories: ["编程", "学习", "前端"]
+
+weight: 10
+contentCopyright: MIT
+mathjax: true
+autoCollapseToc: true
 
 ---
 
