@@ -1,9 +1,9 @@
 ---
-title: "Taro 学习 day 01"
+title: "Vue 学习 day 01"
 date: 2020-01-16T00:00:00+08:00
 lastmod: 2020-01-16T00:00:00+08:00
 draft: false
-tags: ["Taro", "编程", "学习", "小程序"]
+tags: ["Vue", "编程", "学习", "小程序"]
 categories: ["编程", "学习", "前端"]
 
 weight: 10
