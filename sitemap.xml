@@ -72,6 +72,13 @@
   </url>
   
   <url>
+    <loc>http://addio.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2020-01-16T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://addio.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2020-01-16T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -100,6 +107,20 @@
   </url>
   
   <url>
+    <loc>http://addio.github.io/categories/%E6%A1%86%E6%9E%B6/</loc>
+    <lastmod>2020-01-16T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://addio.github.io/tags/%E6%A1%86%E6%9E%B6/</loc>
+    <lastmod>2020-01-16T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://addio.github.io/tags/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2020-01-16T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -121,14 +142,14 @@
   </url>
   
   <url>
-    <loc>http://addio.github.io/tags/raect/</loc>
+    <loc>http://addio.github.io/categories/raect/</loc>
     <lastmod>2020-01-14T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://addio.github.io/tags/%E6%A1%86%E6%9E%B6/</loc>
+    <loc>http://addio.github.io/tags/raect/</loc>
     <lastmod>2020-01-14T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -142,14 +163,14 @@
   </url>
   
   <url>
-    <loc>http://addio.github.io/categories/theme-preview/</loc>
+    <loc>http://addio.github.io/tags/theme-preview/</loc>
     <lastmod>2018-07-10T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://addio.github.io/tags/theme-preview/</loc>
+    <loc>http://addio.github.io/categories/theme-preview/</loc>
     <lastmod>2018-07-10T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
