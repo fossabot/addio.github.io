@@ -24,4 +24,5 @@ autoCollapseToc: true
 
 ```
 npm install -g @tarojs/cli
+taro init myApp
 ```
