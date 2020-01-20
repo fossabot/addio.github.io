@@ -1,5 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="http://addio.github.io/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://addio.github.io/post/taro-xue-xi-01/</loc>
@@ -18,13 +19,6 @@
   <url>
     <loc>http://addio.github.io/post/react-xue-xi-01/</loc>
     <lastmod>2020-01-14T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://addio.github.io/post/even-preview/</loc>
-    <lastmod>2018-07-10T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -72,13 +66,6 @@
   </url>
   
   <url>
-    <loc>http://addio.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2020-01-16T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://addio.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2020-01-16T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,7 +73,7 @@
   </url>
   
   <url>
-    <loc>http://addio.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>http://addio.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2020-01-16T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -100,6 +87,13 @@
   </url>
   
   <url>
+    <loc>http://addio.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2020-01-16T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://addio.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/</loc>
     <lastmod>2020-01-16T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -107,14 +101,14 @@
   </url>
   
   <url>
-    <loc>http://addio.github.io/categories/%E6%A1%86%E6%9E%B6/</loc>
+    <loc>http://addio.github.io/tags/%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2020-01-16T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://addio.github.io/tags/%E6%A1%86%E6%9E%B6/</loc>
+    <loc>http://addio.github.io/categories/%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2020-01-16T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -151,27 +145,6 @@
   <url>
     <loc>http://addio.github.io/tags/raect/</loc>
     <lastmod>2020-01-14T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://addio.github.io/tags/preview/</loc>
-    <lastmod>2018-07-10T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://addio.github.io/tags/theme-preview/</loc>
-    <lastmod>2018-07-10T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://addio.github.io/categories/theme-preview/</loc>
-    <lastmod>2018-07-10T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

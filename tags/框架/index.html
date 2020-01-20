@@ -1,212 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>框架 · 编程开发的学习笔记</title>
-  <meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>框架 - 编程开发的学习笔记</title>
+    
+    <meta name="description" content="Hugo theme even example site.">
+    <meta name="author" content="">
+    
+    <link href="http://addio.github.io/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://addio.github.io/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://addio.github.io/apple-touch-icon.png">
+    <link rel="icon" href="http://addio.github.io/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.61.0" />
+    
+    <link rel="alternate" type="application/atom+xml" href="http://addio.github.io/index.xml" title="编程开发的学习笔记">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
 
-<meta name="theme-color" content="#f8f5ec" />
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
 
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
 
-<meta name="author" content="addio" /><meta name="description" content="Hugo theme even example site." /><meta name="keywords" content="Hugo, theme, even" />
-
-
-
-
-
-
-<meta name="generator" content="Hugo 0.61.0 with theme even" />
-
-
-<link rel="canonical" href="http://addio.github.io/tags/%E6%A1%86%E6%9E%B6/" />
-  <link href="http://addio.github.io/tags/%E6%A1%86%E6%9E%B6/index.xml" rel="alternate" type="application/rss+xml" title="编程开发的学习笔记" />
-  <link href="http://addio.github.io/tags/%E6%A1%86%E6%9E%B6/index.xml" rel="feed" type="application/rss+xml" title="编程开发的学习笔记" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-
-
-<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
-
-
-<meta property="og:title" content="框架" />
-<meta property="og:description" content="Hugo theme even example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://addio.github.io/tags/%E6%A1%86%E6%9E%B6/" />
-<meta property="og:updated_time" content="2020-01-16T00:00:00+08:00" />
-<meta itemprop="name" content="框架">
-<meta itemprop="description" content="Hugo theme even example site."><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="框架"/>
-<meta name="twitter:description" content="Hugo theme even example site."/>
-
-<!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-<![endif]-->
-
-<!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<![endif]-->
-
-</head>
-<body>
-  <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/" class="logo">和平街21号</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    <a href="/">
-        <li class="mobile-menu-item">Home</li>
-      </a><a href="/post/">
-        <li class="mobile-menu-item">Archives</li>
-      </a><a href="/tags/">
-        <li class="mobile-menu-item">Tags</li>
-      </a><a href="/categories/">
-        <li class="mobile-menu-item">Categories</li>
-      </a><a href="/about/">
-        <li class="mobile-menu-item">About</li>
-      </a>
-  </ul>
-</nav>
-  <div class="container" id="mobile-panel">
-    <header id="header" class="header">
-        <div class="logo-wrapper">
-  <a href="/" class="logo">和平街21号</a>
-</div>
-
-<nav class="site-navbar">
-  <ul id="menu" class="menu">
-    <li class="menu-item">
-        <a class="menu-item-link" href="/">Home</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/post/">Archives</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/tags/">Tags</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/categories/">Categories</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/about/">About</a>
-      </li>
-  </ul>
-</nav>
-    </header>
-
-    <main id="main" class="main">
-      <div class="content-wrapper">
-        <div id="content" class="content">
-          <section id="archive" class="archive">
-  <div class="archive-title tag">
-        <h2 class="archive-name">框架</h2>
-      </div>
-
-  <div class="archive-post">
-      <span class="archive-post-time">
-        2020-01-16
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/vue-xue-xi-01/" class="archive-post-link">
-          Vue 学习 day 01
-        </a>
-      </span>
-    </div><div class="archive-post">
-      <span class="archive-post-time">
-        2020-01-14
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/react-xue-xi-01/" class="archive-post-link">
-          Raect 学习 day 01
-        </a>
-      </span>
-    </div>
-</section>
-
-<nav class="pagination">
-  
-  
-</nav>
-        </div>
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
         
+        <p class="logo"><a href="http://addio.github.io/">编程开发的学习笔记</a></p>
+        
+        
+        <ul class="menu">
+          
+          <li>
+            <a href="/">Home</a>
+          </li>
+          
+          <li>
+            <a href="/post/">Archives</a>
+          </li>
+          
+          <li>
+            <a href="/tags/">Tags</a>
+          </li>
+          
+          <li>
+            <a href="/categories/">Categories</a>
+          </li>
+          
+          <li>
+            <a href="/about/">About</a>
+          </li>
+          
+        </ul>
+        
+      </nav>
+    </header>
+    <main class="main">
 
-      </div>
-    </main>
 
-    <footer id="footer" class="footer">
-      <div class="social-links">
-      <a href="mailto:gandli@qq.com" class="iconfont icon-email" title="email"></a>
-      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
-      <a href="https://twitter.com/gandli" class="iconfont icon-twitter" title="twitter"></a>
-      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
-      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
-      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
-      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
-      <a href="https://weibo.com/472561841" class="iconfont icon-weibo" title="weibo"></a>
-      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
-      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
-      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
-      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
-      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
-      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
-      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
-  <a href="http://addio.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
-</div>
 
-<div class="copyright">
-  <span class="power-by">
-    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
-  </span>
-  <span class="division">|</span>
-  <span class="theme-info">
-    Theme - 
-    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
-  </span>
 
-  
-
-  <span class="copyright-year">
-    &copy; 
-    2020
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">addio</span>
-  </span>
-</div>
-    </footer>
-
-    <div class="back-to-top" id="back-to-top">
-      <i class="iconfont icon-up"></i>
-    </div>
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+<header class="page-header">
+  <h1>框架</h1>
+</header>
 
 
 
 
 
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Taro 学习 day 01</h2>
+  </header>
+  <section class="entry-content">
+   <p>简介 Taro 是一套遵循React法规范的多端开发解决方案。 现如今市面上端的形态多种多样，Web、React-Native、微信小程序等各种端大行其...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 16, 2020</time>
+  </footer>
+  <a class="entry-link" href="http://addio.github.io/post/taro-xue-xi-01/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Vue 学习 day 01</h2>
+  </header>
+  <section class="entry-content">
+   <p>简介 Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 16, 2020</time>
+  </footer>
+  <a class="entry-link" href="http://addio.github.io/post/vue-xue-xi-01/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Raect 学习 day 01</h2>
+  </header>
+  <section class="entry-content">
+   <p>React 是一个用于构建用户界面的 JavaScript 库。这是一个学习React的笔记 环境：Node.js 1 2 node -v npm -v 创建项目：Create React App 1 2 3 npx create-react-app my-app cd my-app npm start 项...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 14, 2020</time>
+  </footer>
+  <a class="entry-link" href="http://addio.github.io/post/react-xue-xi-01/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>About</h2>
+  </header>
+  <section class="entry-content">
+   <p>Hugo is a static site engine written in Go.
+It makes use of a variety of open source projects including:
+ Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 20, 2017</time>
+  </footer>
+  <a class="entry-link" href="http://addio.github.io/about/"></a>
+</article>
 
 
 
+
+</main>
+<footer class="footer">
+  <span>&copy; 2020 <a href="http://addio.github.io/">编程开发的学习笔记</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://addio.github.io/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
 </body>
 </html>
+
